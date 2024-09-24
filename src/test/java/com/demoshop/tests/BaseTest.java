@@ -1,5 +1,7 @@
 package com.demoshop.tests;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -17,6 +19,7 @@ public class BaseTest {
 		String browserName= "Chrome";
 		getDriver(browserName);
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://demowebshop.tricentis.com/");
 		
 	}

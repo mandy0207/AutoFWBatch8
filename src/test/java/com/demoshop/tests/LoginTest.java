@@ -1,18 +1,27 @@
 package com.demoshop.tests;
 
-import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.demoshop.pageObjects.LoginPage;
 
 public class LoginTest extends BaseTest{
 
 	@Test
 	public void verifyUserIsAbleToLoginWithValidCreds() {
 		
-		driver.findElement(By.xpath("//a[@class='ico-login']")).click();
-		driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("obsqura24@gmail.com");
-		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys("mypassword");
 		
-		driver.findElement(By.xpath("//*[@class='buttons']/*[@value='Log in']")).click();
+		LoginPage loginPage= new LoginPage(driver);
+		
+		loginPage.navigateToLoginSection();
+		String actualEmail= "obsqura24@gmail.com";
+		
+		loginPage.login(actualEmail, "mypassword");
+		
+		String expectedEmail = loginPage.getLoggedEmail();
+		
+		System.out.println(expectedEmail);
+		Assert.assertEquals(actualEmail, expectedEmail, "Logged Email is not matching");
 	
 	}
 }

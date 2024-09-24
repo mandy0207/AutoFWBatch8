@@ -5,7 +5,9 @@
     <classes>
       <class name="com.demoshop.tests.LoginTest">
         <methods>
+          <include name="tearDown"/>
           <include name="verifyUserIsAbleToLoginWithValidCreds"/>
+          <include name="initDriver"/>
         </methods>
       </class> <!-- com.demoshop.tests.LoginTest -->
     </classes>
