@@ -34,6 +34,17 @@ public class LoginPage {
 	@FindBy(css=".account")
 	private WebElement loggedEmail;
 	
+	@FindBy(id="newsletter-email")
+	private WebElement newsLetterEmail;
+	
+	@FindBy(id="newsletter-subscribe-button")
+	private WebElement newsLetterSubscribeBtn;
+	
+	@FindBy(id="newsletter-result-block")
+	private WebElement newsLetterSubscribeText;
+	
+	
+	
 	public void navigateToLoginSection() {
 		loginHeader.click();
 	}
@@ -50,6 +61,13 @@ public class LoginPage {
 	
 	public String getLoggedEmail() {
 		return loggedEmail.getText();
+	}
+	
+	public String verifyNewsLetterEmail(String uniqueEmail) throws InterruptedException {
+		newsLetterEmail.sendKeys(uniqueEmail);
+		newsLetterSubscribeBtn.click();
+		Thread.sleep(2000);
+		return newsLetterSubscribeText.getText();
 	}
 	
 

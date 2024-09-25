@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-24T12:54:25 IST" name="Default suite" finished-at="2024-09-24T12:54:33 IST" duration-ms="7926">
+  <suite started-at="2024-09-25T13:03:29 IST" name="Default suite" finished-at="2024-09-25T13:03:47 IST" duration-ms="18101">
     <groups>
     </groups>
-    <test started-at="2024-09-24T12:54:25 IST" name="Default test" finished-at="2024-09-24T12:54:33 IST" duration-ms="7926">
-      <class name="com.demoshop.tests.RegisterationTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.demoshop.tests.RegisterationTest@38c6f217]" started-at="2024-09-24T12:54:25 IST" name="initDriver" finished-at="2024-09-24T12:54:30 IST" duration-ms="5521" status="PASS">
+    <test started-at="2024-09-25T13:03:29 IST" name="Default test" finished-at="2024-09-25T13:03:47 IST" duration-ms="18101">
+      <class name="com.demoshop.tests.LoginTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.demoshop.tests.LoginTest@79e2c065]" started-at="2024-09-25T13:03:29 IST" name="initDriver" finished-at="2024-09-25T13:03:42 IST" duration-ms="12816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="verifyUserIsAbleToRegisterUsingCorrectCreds()[pri:0, instance:com.demoshop.tests.RegisterationTest@38c6f217]" started-at="2024-09-24T12:54:30 IST" name="verifyUserIsAbleToRegisterUsingCorrectCreds" finished-at="2024-09-24T12:54:32 IST" duration-ms="2220" status="PASS">
+        <test-method signature="verifyUserIsAbleToLoginWithValidCreds()[pri:0, instance:com.demoshop.tests.LoginTest@79e2c065]" started-at="2024-09-25T13:03:42 IST" name="verifyUserIsAbleToLoginWithValidCreds" finished-at="2024-09-25T13:03:45 IST" duration-ms="3771" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToRegisterUsingCorrectCreds -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoshop.tests.RegisterationTest@38c6f217]" started-at="2024-09-24T12:54:32 IST" name="tearDown" finished-at="2024-09-24T12:54:33 IST" duration-ms="150" status="PASS">
+        </test-method> <!-- verifyUserIsAbleToLoginWithValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoshop.tests.LoginTest@79e2c065]" started-at="2024-09-25T13:03:45 IST" name="tearDown" finished-at="2024-09-25T13:03:47 IST" duration-ms="1285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.demoshop.tests.RegisterationTest -->
+      </class> <!-- com.demoshop.tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

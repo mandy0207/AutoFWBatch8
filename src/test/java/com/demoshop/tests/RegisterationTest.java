@@ -11,9 +11,6 @@ public class RegisterationTest extends BaseTest {
 
 	@Test
 	public void verifyUserIsAbleToRegisterUsingCorrectCreds() {
-		LoginPage loginPage= new LoginPage(driver);
-		RegisterPage registerPage = new RegisterPage(driver);
-		
 		
 		loginPage.navigateToRegisterationSection();
 		
