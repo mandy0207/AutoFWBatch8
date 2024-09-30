@@ -29,7 +29,8 @@ public class BaseTest {
 		getDriver(browserName);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("https://demowebshop.tricentis.com/");
+		String url=prop.getProperty(prop.getProperty("environment"));
+		driver.get(url);
 		initPages();
 		
 	}

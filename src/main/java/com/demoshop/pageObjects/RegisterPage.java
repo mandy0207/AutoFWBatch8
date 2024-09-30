@@ -5,39 +5,43 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RegisterPage {
+import com.demoshop.utils.PageActions;
+
+public class RegisterPage extends PageActions {
 
 	private WebDriver driver;
-	
+
 	public RegisterPage(WebDriver driver) {
-		this.driver= driver;
+		super(driver);
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
+
 	}
 
-	@FindBy(id="gender-male")
+	@FindBy(id = "gender-male")
 	private WebElement genderMale;
-	
-	@FindBy(id="FirstName")
+
+	@FindBy(id = "FirstName")
 	private WebElement firstName;
-	
-	@FindBy(id="LastName")
+
+	@FindBy(id = "LastName")
 	private WebElement lastName;
-	
-	@FindBy(id="Email")
+
+	@FindBy(id = "Email")
 	private WebElement email;
-	
-	@FindBy(id="Password")
+
+	@FindBy(id = "Password")
 	private WebElement password;
-	
-	@FindBy(id="ConfirmPassword")
+
+	@FindBy(id = "ConfirmPassword")
 	private WebElement confirmPassword;
-	
-	@FindBy(id="register-button")
+
+	@FindBy(id = "register-button")
 	private WebElement registerBtn;
-	
-	
-	
+
+	@FindBy(css = ".co-logout")
+	private WebElement logoutBtn;
+
 	public void setUserData(String fName, String lName, String emailVal, String passVal) {
 		genderMale.click();
 		firstName.sendKeys(fName);
@@ -47,8 +51,9 @@ public class RegisterPage {
 		confirmPassword.sendKeys(passVal);
 		registerBtn.click();
 	}
-	
 
-
+	public void logout() {
+		clickElement(logoutBtn);
+	}
 
 }

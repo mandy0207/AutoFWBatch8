@@ -5,11 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import com.demoshop.utils.PageActions;
+
+public class LoginPage extends PageActions {
 
 	private WebDriver driver;
 	
 	public LoginPage(WebDriver driver) {
+		super(driver);
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
 		
@@ -46,28 +49,31 @@ public class LoginPage {
 	
 	
 	public void navigateToLoginSection() {
-		loginHeader.click();
+		clickElement(loginHeader);
 	}
 	
 	public void navigateToRegisterationSection() {
-		registerHeader.click();
+		clickElement(registerHeader);
 	}
 	
 	public void login(String email, String pass) {
-		emailInput.sendKeys(email);
-        passwordInput.sendKeys(pass);
-        loginBtn.click();
+		setTextBox(emailInput, email);
+		setTextBox(passwordInput, pass);
+        clickElement(loginBtn);
+       
 	}
 	
 	public String getLoggedEmail() {
-		return loggedEmail.getText();
+		return getElementText(loggedEmail);
+	
 	}
 	
 	public String verifyNewsLetterEmail(String uniqueEmail) throws InterruptedException {
-		newsLetterEmail.sendKeys(uniqueEmail);
-		newsLetterSubscribeBtn.click();
-		Thread.sleep(2000);
-		return newsLetterSubscribeText.getText();
+		setTextBox(newsLetterEmail, uniqueEmail);
+	    clickElement(newsLetterSubscribeBtn);
+		waitUntilVisible(newsLetterSubscribeText);
+		return getElementText(newsLetterSubscribeText);
+		
 	}
 	
 
