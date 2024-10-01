@@ -19,7 +19,6 @@ public class RegisterationTest extends BaseTest {
 		String lastName= faker.name().lastName();
 		String uniqueEmail = faker.internet().emailAddress();
 		String password= faker.internet().password();
-		
 		registerPage.setUserData(firstName, lastName, uniqueEmail, password);
 	    String expectedEmail = loginPage.getLoggedEmail();
 		Assert.assertEquals(uniqueEmail, expectedEmail, "Registered email is differents");
