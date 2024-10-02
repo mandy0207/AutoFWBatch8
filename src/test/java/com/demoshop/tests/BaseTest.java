@@ -12,6 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.demoshop.pageObjects.LoginPage;
+import com.demoshop.pageObjects.ProductPage;
 import com.demoshop.pageObjects.RegisterPage;
 import com.demoshop.utils.TestProperties;
 
@@ -53,10 +54,12 @@ public class BaseTest {
 	
 	public LoginPage loginPage;
 	public RegisterPage registerPage;
+	public  ProductPage productPage;
 	
 	public void initPages() {
 		loginPage= new LoginPage(driver);
 	    registerPage = new RegisterPage(driver);
+	    productPage = new ProductPage(driver);
 	}
 	
 	@AfterMethod()

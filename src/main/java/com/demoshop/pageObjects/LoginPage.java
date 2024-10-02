@@ -46,6 +46,12 @@ public class LoginPage extends PageActions {
 	@FindBy(id="newsletter-result-block")
 	private WebElement newsLetterSubscribeText;
 	
+	@FindBy(id="small-searchterms")
+	private WebElement searchInput;
+	
+	@FindBy(css="[value='Search']")
+	private WebElement searchBtn;
+	
 	
 	
 	public void navigateToLoginSection() {
@@ -76,5 +82,10 @@ public class LoginPage extends PageActions {
 		
 	}
 	
+	public void searchProduct(String productName) {
+		setTextBox(searchInput, productName);
+		clickElement(searchBtn);
+		
+	}
 
 }
