@@ -3,21 +3,28 @@ package com.demoshop.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.demoshop.pageObjects.LoginPage;
-import com.demoshop.pageObjects.RegisterPage;
 import com.demoshop.utils.DataUtils;
-import com.github.javafaker.Faker;
 
-public class ExcelRegisterationTest extends BaseTest {
+public class E2ECheckoutTest extends BaseTest{
 
-	@Test
-	public void verifyUserIsAbleToRegisterUsingCorrectCreds() {
-		
-		loginPage.navigateToRegisterationSection();
+	
+	@Test(groups="Smoke")
+	public void verifyNewUserRegistersAndCheckoutProduct() {
+		//Registering user
 		DataUtils.initUserData();
+	    loginPage.navigateToRegisterationSection();
 		registerPage.setUserData(DataUtils.firstName, DataUtils.lastName, DataUtils.uniqueEmail, DataUtils.password);
 	    String expectedEmail = loginPage.getLoggedEmail();
 		Assert.assertEquals(DataUtils.uniqueEmail, expectedEmail, "Registered email is differents");
+		
+		//Searching product
+		loginPage.searchProduct("Jeans");
+		//put assertion it's blue jeans
+		
+		productPage.clickAddToCartButton().navigateToCart();
+		//assert that it moved to checkoutpage
+		
+		//checkout , billing
 		
 	}
 }

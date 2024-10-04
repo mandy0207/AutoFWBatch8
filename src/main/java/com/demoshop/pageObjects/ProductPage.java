@@ -23,9 +23,25 @@ public class ProductPage extends PageActions {
 	@FindBy(css=".product-title a")
 	private List<WebElement> productList;
 	
+	@FindBy(css="[value='Add to cart']")
+	private WebElement addToCartBtn;
+	
+	@FindBy(css=".header-links .ico-cart ")
+	private WebElement shoppingCartHeader;
+	
+
+	
 	public List<String> getSearchedProductList() {
 		return getElementTextList(productList);
 	}
 	
+	public ProductPage clickAddToCartButton() {
+		clickElement(addToCartBtn);
+		return this;
+	}
+	
+	public void navigateToCart() {
+		clickElement(shoppingCartHeader);
+	}
 	
 }

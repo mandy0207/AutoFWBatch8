@@ -1,11 +1,13 @@
 package com.demoshop.pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.demoshop.utils.PageActions;
+import com.demoshop.utils.WaitUtils;
 
 public class LoginPage extends PageActions {
 
@@ -74,10 +76,10 @@ public class LoginPage extends PageActions {
 	
 	}
 	
-	public String verifyNewsLetterEmail(String uniqueEmail) throws InterruptedException {
+	public String verifyNewsLetterEmail(String uniqueEmail, String expectedText) throws InterruptedException {
 		setTextBox(newsLetterEmail, uniqueEmail);
 	    clickElement(newsLetterSubscribeBtn);
-		waitUntilVisible(newsLetterSubscribeText);
+		WaitUtils.waitUntilTextShows(newsLetterSubscribeText, driver, expectedText);
 		return getElementText(newsLetterSubscribeText);
 		
 	}
@@ -85,6 +87,7 @@ public class LoginPage extends PageActions {
 	public void searchProduct(String productName) {
 		setTextBox(searchInput, productName);
 		clickElement(searchBtn);
+		
 		
 	}
 
