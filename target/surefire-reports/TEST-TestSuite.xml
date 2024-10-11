@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="22.915" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="18.765" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\InfoBahn\AppData\Local\Temp\surefire5357698206244969911\surefirebooter-20241010124908275_3.jar C:\Users\InfoBahn\AppData\Local\Temp\surefire5357698206244969911 2024-10-10T12-49-08_157-jvmRun1 surefire-20241010124908275_1tmp surefire_0-20241010124908275_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\InfoBahn\AppData\Local\Temp\surefire7169597034637128522\surefirebooter-20241011124336570_3.jar C:\Users\InfoBahn\AppData\Local\Temp\surefire7169597034637128522 2024-10-11T12-43-36_460-jvmRun1 surefire-20241011124336570_1tmp surefire_0-20241011124336570_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\InfoBahn\eclipse-workspace\DemoWebShopFW\target\test-classes;C:\Users\InfoBahn\eclipse-workspace\DemoWebShopFW\target\classes;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\InfoBahn\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\InfoBahn\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\InfoBahn\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\InfoBahn\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\InfoBahn\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\InfoBahn\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\InfoBahn\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\InfoBahn\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\InfoBahn\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\InfoBahn\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\InfoBahn\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\InfoBahn\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\InfoBahn\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\InfoBahn\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\InfoBahn\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\InfoBahn\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\InfoBahn\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\InfoBahn\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\InfoBahn\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\InfoBahn\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\InfoBahn\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\InfoBahn\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\InfoBahn\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\InfoBahn\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\InfoBahn\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\InfoBahn\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\InfoBahn\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\InfoBahn\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\InfoBahn\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\InfoBahn\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\InfoBahn\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\InfoBahn\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\InfoBahn\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\InfoBahn\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,13 +25,12 @@
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\InfoBahn\eclipse-workspace\DemoWebShopFW"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\InfoBahn\AppData\Local\Temp\surefire5357698206244969911\surefirebooter-20241010124908275_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\InfoBahn\AppData\Local\Temp\surefire7169597034637128522\surefirebooter-20241011124336570_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -50,17 +49,15 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/InfoBahn/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/InfoBahn/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\InfoBahn\AppData\Local\Android\Sdk\tools\bin;C:\Users\InfoBahn\AppData\Local\Android\Sdk\tools;C:\Users\InfoBahn\AppData\Local\Android\Sdk\platform-tools;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\Scripts\;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\;C:\Users\InfoBahn\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\InfoBahn\AppData\Local\Microsoft\WindowsApps;C:\Users\InfoBahn\AppData\Roaming\npm;C:\Users\InfoBahn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\InfoBahn\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\InfoBahn\AppData\Local\Android\Sdk\tools\bin;C:\Users\InfoBahn\AppData\Local\Android\Sdk\tools;C:\Users\InfoBahn\AppData\Local\Android\Sdk\platform-tools;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\;C:\Users\InfoBahn\AppData\Local\Programs\Python\Python36-32\Scripts\;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\InfoBahn\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\InfoBahn\AppData\Local\Microsoft\WindowsApps;C:\Users\InfoBahn\AppData\Roaming\npm;C:\Users\InfoBahn\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyUserIsAbletoSearchDesiredProducts" classname="com.demoshop.tests.SearchTest" time="0.999">
+  <testcase name="verifyUserIsAbletoSearchDesiredProducts" classname="com.demoshop.tests.SearchTest" time="1.429">
     <system-out><![CDATA[In before Method
-In before Method
-chrome
 chrome
 In before Method
 chrome
@@ -68,56 +65,56 @@ In before Method
 chrome
 In before Method
 chrome
-Person [fName=Pasquale, lName=Lowe, email=dayna.farrell@hotmail.com, password=xt64gcwb, confirmPassword=xt64gcwb]
+In before Method
+chrome
+Person [fName=Tory, lName=Kihn, email=luise.hoppe@yahoo.com, password=8hja5vy9, confirmPassword=8hja5vy9]
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Oct 10, 2024 12:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 11, 2024 12:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-Oct 10, 2024 12:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 11, 2024 12:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-Oct 10, 2024 12:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 11, 2024 12:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-Oct 10, 2024 12:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 11, 2024 12:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-Oct 10, 2024 12:49:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 11, 2024 12:43:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="verifyUserIsAbleToRegisterUsingCorrectCreds" classname="com.demoshop.tests.ExcelRegisterationTest" time="2.745">
+  <testcase name="verifyUserIsAbleToRegisterUsingCorrectCredsFromExcel" classname="com.demoshop.tests.RegisterationTest" time="2.919">
     <system-out><![CDATA[In before Method
 chrome
 ]]></system-out>
   </testcase>
-  <testcase name="verifyUserIsAbleToMultipleRegisterUsingCorrectCreds[Neal, Lehner, usha.kris@hotmail.com, vodzf24alnp](1)" classname="com.demoshop.tests.RegisterationDP" time="2.785"/>
-  <testcase name="verifyUserIsAbleToRegisterUsingCorrectCredsFromExcel" classname="com.demoshop.tests.RegisterationTest" time="3.324">
+  <testcase name="verifyUserIsAbleToRegisterUsingCorrectCreds" classname="com.demoshop.tests.ExcelRegisterationTest" time="3.296">
     <system-out><![CDATA[In before Method
 chrome
-In before Method
+]]></system-out>
+    <system-err><![CDATA[Oct 11, 2024 12:43:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserIsAbleToMultipleRegisterUsingCorrectCreds[Nan, Bode, jerrold.walsh@yahoo.com, m9cqte0cglyce](1)" classname="com.demoshop.tests.RegisterationDP" time="3.427"/>
+  <testcase name="verifyUserIsAbleToLoginWithValidCreds" classname="com.demoshop.tests.LoginTest" time="0.235">
+    <system-out><![CDATA[In before Method
 chrome
+Person [fName=Regena, lName=Brown, email=katherine.beer@hotmail.com, password=8hja5vy9, confirmPassword=8hja5vy9]
+obsqura24@gmail.com
 ]]></system-out>
-    <system-err><![CDATA[Oct 10, 2024 12:49:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 11, 2024 12:43:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+Oct 11, 2024 12:43:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
 ]]></system-err>
   </testcase>
-  <testcase name="verifyUserIsAbleToMultipleRegisterUsingCorrectCreds[[Person [fName=Pasquale, lName=Lowe, email=dayna.farrell@hotmail.com, password=xt64gcwb, confirmPassword=xt64gcwb], Person [fName=Michaele, lName=Nienow, email=tommie.corwin@gmail.com, password=xt64gcwb, confirmPassword=xt64gcwb]]](1)" classname="com.demoshop.tests.RegisterationDP2" time="7.555">
-    <system-out><![CDATA[Person [fName=Michaele, lName=Nienow, email=tommie.corwin@gmail.com, password=xt64gcwb, confirmPassword=xt64gcwb]
-]]></system-out>
-    <system-err><![CDATA[Oct 10, 2024 12:49:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-Oct 10, 2024 12:49:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
-]]></system-err>
-  </testcase>
-  <testcase name="verifyUserIsAbleToSubscribeWithValidEmail" classname="com.demoshop.tests.SubscriptionTest" time="0.759">
+  <testcase name="verifyUserIsAbleToMultipleRegisterUsingCorrectCreds[[Person [fName=Tory, lName=Kihn, email=luise.hoppe@yahoo.com, password=8hja5vy9, confirmPassword=8hja5vy9], Person [fName=Regena, lName=Brown, email=katherine.beer@hotmail.com, password=8hja5vy9, confirmPassword=8hja5vy9]]](1)" classname="com.demoshop.tests.RegisterationDP2" time="0.073"/>
+  <testcase name="verifyUserIsAbleToSubscribeWithValidEmail" classname="com.demoshop.tests.SubscriptionTest" time="0.855">
     <system-out><![CDATA[Thank you for signing up! A verification email has been sent. We appreciate your interest.
 ]]></system-out>
   </testcase>
-  <testcase name="verifyUserIsAbleToLoginWithValidCreds" classname="com.demoshop.tests.LoginTest" time="0.802">
-    <system-out><![CDATA[obsqura24@gmail.com
-]]></system-out>
-  </testcase>
-  <testcase name="verifyNewUserRegistersAndCheckoutProduct" classname="com.demoshop.tests.E2ECheckoutTest" time="4.319"/>
+  <testcase name="verifyNewUserRegistersAndCheckoutProduct" classname="com.demoshop.tests.E2ECheckoutTest" time="2.733"/>
 </testsuite>
