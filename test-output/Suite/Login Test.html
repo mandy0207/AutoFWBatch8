@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Login Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 10 12:26:14 IST 2024</td>
+<td>Started on:</td><td>Sat Oct 12 19:33:45 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8047 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19560 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,66 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.demoshop.tests.LoginTest.verifyUserIsAbleToLoginWithValidCreds()'><b>verifyUserIsAbleToLoginWithValidCreds</b><br>Test class: com.demoshop.tests.LoginTest</td>
-<td><div><pre>java.lang.AssertionError: Logged Email is not matching expected [hjjjjf] but found [obsqura24@gmail.com]
+<td><div><pre>java.lang.AssertionError: Logged Email is not matching expected [obsqura24@gmail.com] but found [hvfjfj]
 	at com.demoshop.tests.LoginTest.verifyUserIsAbleToLoginWithValidCreds(LoginTest.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1896514774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1896514774'><pre>java.lang.AssertionError: Logged Email is not matching expected [hjjjjf] but found [obsqura24@gmail.com]
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace646852597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace646852597'><pre>java.lang.AssertionError: Logged Email is not matching expected [obsqura24@gmail.com] but found [hvfjfj]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.demoshop.tests.LoginTest.verifyUserIsAbleToLoginWithValidCreds(LoginTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>1</td>
+<td>com.demoshop.tests.LoginTest@24105dc5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demoshop.tests.LoginTest.verifyUserIsAbleToLoginWithValidCreds()'><b>verifyUserIsAbleToLoginWithValidCreds</b><br>Test class: com.demoshop.tests.LoginTest</td>
+<td><div><pre>java.lang.AssertionError: Logged Email is not matching expected [obsqura24@gmail.com] but found [hvfjfj]
+	at com.demoshop.tests.LoginTest.verifyUserIsAbleToLoginWithValidCreds(LoginTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace902612822", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace902612822'><pre>java.lang.AssertionError: Logged Email is not matching expected [obsqura24@gmail.com] but found [hvfjfj]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -116,7 +167,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:842)
 </pre></div></td>
 <td>1</td>
-<td>com.demoshop.tests.LoginTest@5167f57d</td></tr>
+<td>com.demoshop.tests.LoginTest@24105dc5</td></tr>
 </table><p>
 </body>
 </html>

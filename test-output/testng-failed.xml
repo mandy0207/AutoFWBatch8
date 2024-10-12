@@ -3,6 +3,7 @@
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.demoshop.Listeners.ReportListener"/>
+    <listener class-name="com.demoshop.Listeners.MyTransformer"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="Login Test(failed)">
     <classes>
@@ -15,15 +16,4 @@
       </class> <!-- com.demoshop.tests.LoginTest -->
     </classes>
   </test> <!-- Login Test(failed) -->
-  <test thread-count="5" parallel="tests" name="Subscription Test(failed)">
-    <classes>
-      <class name="com.demoshop.tests.SubscriptionTest">
-        <methods>
-          <include name="verifyUserIsAbleToSubscribeWithValidEmail"/>
-          <include name="tearDown"/>
-          <include name="initDriver"/>
-        </methods>
-      </class> <!-- com.demoshop.tests.SubscriptionTest -->
-    </classes>
-  </test> <!-- Subscription Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

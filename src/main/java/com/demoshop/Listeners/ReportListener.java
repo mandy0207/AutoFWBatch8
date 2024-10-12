@@ -28,6 +28,14 @@ public class ReportListener implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		extentTest.get().log(Status.PASS, "Test Passed");
 	}
+	
+	
+	
+
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		extentTest.get().log(Status.SKIP, "Skipped Passed");
+	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
