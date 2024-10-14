@@ -58,6 +58,7 @@ public class LoginPage extends PageActions {
 	
 	public void navigateToLoginSection() {
 		clickElement(loginHeader);
+		
 	}
 	
 	public void navigateToRegisterationSection() {

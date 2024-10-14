@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
 		String expectedEmail = loginPage.getLoggedEmail();
 
 		System.out.println(expectedEmail);
-		Assert.assertEquals("hvfjfj", expectedEmail, "Logged Email is not matching");
+		Assert.assertEquals(prop.getProperty("email"), expectedEmail, "Logged Email is not matching");
 
 	}
 }
